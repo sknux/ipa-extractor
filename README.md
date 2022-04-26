@@ -26,7 +26,7 @@ Generating the IPA File:
   
 Here is the entire path of your IPA File:
 
-/private/var/containers/Bundle/Application/97C5C3BE-CF6E-4776-BBBC-85498F1B229A/test.ipa
+/private/var/containers/Bundle/Application/97C..A/test.ipa
 ```
 
 To see the IPA Hash you can execute the following command:
