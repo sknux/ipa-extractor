@@ -1,6 +1,6 @@
 # The automator of the IPA extraction.
 
-## Required: Install de App from the Apple Store, SSH with an iOS Device.
+## Required: Install de App from the Apple Store, SSH with an iOS Device with Jailbreak.
 
 ### Steps: Upload the ipa_extractor script to the device with scp or another uploader that you want and then execute the script file.
 
