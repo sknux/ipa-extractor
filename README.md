@@ -11,3 +11,8 @@ scp ipa_extractor root@device:/var/root
 In your device shell command:
 ./ipa_extractor APPLICATION-HASH IPA-NAME or only execute the script and read the help message.
 ```
+
+To see the IPA Hash you can execute the following command:
+```bash
+find / -name *.app
+```
