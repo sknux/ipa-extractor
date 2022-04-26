@@ -1,0 +1,19 @@
+#!/bin/bash
+
+if [ -z "$1" ]
+then
+	echo -e "Usage: $0 APP-HASH APP-NAME\nExample: $0 02BGOI098... Example"
+	exit
+fi
+
+path="private/var/containers/Bundle/Application"
+hasher=$1
+appname=$2
+
+echo -e "Generating the IPA File:\n"
+mkdir /$path/$hasher/Payload
+cp -r /$path/$hasher/*.app /$path/$hasher/Payload
+zip -r /$path/$hasher/$appname.ipa /$path/$hasher/Payload
+
+echo -e "Here is the entire path of your IPA File:\n"
+ls /$path/$hasher/$appname.ipa
