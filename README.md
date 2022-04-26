@@ -13,7 +13,7 @@ In your device shell command:
 ```
 
 ```
-Another way to execute if you already know about the application hash:
+Another way to execute if you already know about the application hash and have this script in the Device:
 ssh root@device "./ipa_extractor 81FC63... ipa-name"
 ```
 
