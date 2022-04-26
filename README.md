@@ -12,6 +12,11 @@ In your device shell command:
 ./ipa_extractor APPLICATION-HASH IPA-NAME or only execute the script and read the help message.
 ```
 
+```
+Another way to execute if you already know abouth application hash:
+ssh root@device "./ipa_extractor 81FC63... ipa-name"
+```
+
 To see the IPA Hash you can execute the following command:
 ```bash
 find / -name *.app
