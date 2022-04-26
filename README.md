@@ -15,6 +15,18 @@ In your device shell command:
 ```
 Another way to execute if you already know about the application hash and have this script in the Device:
 ssh root@device "./ipa_extractor 81FC63... ipa-name"
+
+Output:
+┌──(kali㉿kali)-[~/app]
+└─$ ssh root@192.168.1.65 "./ipa_extractor 97C..A test"          
+root@192.168.1.65's password: 
+Generating the IPA File:
+
+  adding: private/var/containers/Bundle/Application/97C..A/Payload/ (stored 0%)
+  
+Here is the entire path of your IPA File:
+
+/private/var/containers/Bundle/Application/97C5C3BE-CF6E-4776-BBBC-85498F1B229A/test.ipa
 ```
 
 To see the IPA Hash you can execute the following command:
